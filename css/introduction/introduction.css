@@ -1,0 +1,12 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-image: linear-gradient(-210deg, #484f4f, #563f46);
+}
+
+nav {
+    background-color: #3c4444;
+}
