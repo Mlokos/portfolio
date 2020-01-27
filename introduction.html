@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
     <link rel="stylesheet" href="css/introduction/introduction.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="scss/quote.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet"> 
 
     <title>mlokos</title>
     <link rel="icon" href="img/maze.png">
@@ -16,15 +18,41 @@
     <nav class="navbar navbar-dark">
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link fa fa-bars fa-lg" href="#" style="color:#c6bcb6;"></a>
+          <a class="nav-link fa fa-bars fa-lg" href="#"></a>
+        </li>
+      </ul>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link fas fa-envelope fa-lg" href="#"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fas fa-envelope fa-lg" href="#" style="color:#c6bcb6;"></a>
+          <a class="nav-link fab fa-github fa-lg" href="#"></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link fab fa-github fa-lg" href="#" style="color:#c6bcb6;"></a>
-        </li>
-     </ul>
+      </ul>
     </nav>
+
+    <div class="container">
+      <div class="row mt-5 flex-column-reverse flex-md-row">
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+          <p id="quote-text" class="text-center" style="font-family: 'Libre Baskerville', serif; color: #c6bcb6">
+            It doesn't matter what.<br>It matters with whom.
+          </p>
+        </div>
+        <div class="col-xs-3 col-md-3 text-center">
+          <img id="avatar" src="img/myself/myself.JPG" class="rounded-circle center-block"> 
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+    <footer class="fixed-bottom mb-3">
+      <div class="container">
+        <p class="text-center" style="font-family: 'Open Sans', sans-serif; font-size: small; color: #c6bcb6">
+          ©Copyright 2020, Michał Sokół
+        </p>
+      </div>
+    </footer>
+      
   </body>
 </html>

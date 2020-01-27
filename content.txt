@@ -1,0 +1,6 @@
+programming darkblue-dark
+psychology darkred-orange
+art yellow-gold
+- photography
+- drawings
+blog grey-darkgrey
