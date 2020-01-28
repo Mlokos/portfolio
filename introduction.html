@@ -4,15 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
-    <link rel="stylesheet" href="css/introduction/introduction.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
-    <link rel="stylesheet" href="scss/quote.css">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/bootsrap4-buttons-extended-master/button.css">
+
+    <link rel="stylesheet" href="generated_css/introduction.css">
 
     <title>mlokos</title>
-    <link rel="icon" href="img/maze.png">
+    <link rel="icon" href="img/favicon.ico">
   </head>
   <body>
     <nav class="navbar navbar-dark">
@@ -31,26 +30,38 @@
       </ul>
     </nav>
 
-    <div class="container">
-      <div class="row mt-5 flex-column-reverse flex-md-row">
-        <div class="col-md-2"></div>
-        <div class="col-md-5">
-          <p id="quote-text" class="text-center" style="font-family: 'Libre Baskerville', serif; color: #c6bcb6">
-            It doesn't matter what.<br>It matters with whom.
-          </p>
+    <div id="page-content">
+      <div class="jumbotron" style="background: transparent;">
+        <div class="container">
+          <div class="row flex-column-reverse flex-md-row" style="line-height: 100px;">
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+              <p id="quote-text" class="text-center font-italic">
+                It doesn't matter what.<br>It matters with whom.
+              </p>
+            </div>
+            <div class="col-xs-3 col-md-3 text-center">
+              <img id="avatar" src="img/faces/squared/yoda.jpeg" class="rounded-circle center-block"> 
+            </div>
+            <div class="col-md-2"></div>
+          </div>
         </div>
-        <div class="col-xs-3 col-md-3 text-center">
-          <img id="avatar" src="img/myself/myself.JPG" class="rounded-circle center-block"> 
+      </div>
+  
+      <div id="introduction-button" class="container">
+        <div class="col text-center mb-5">
+          <button type="button" class="btn btn-grey btn-circle btn-lg">
+            About me
+          </button>
         </div>
-        <div class="col-md-2"></div>
       </div>
     </div>
 
-    <footer class="fixed-bottom mb-3">
+    <footer id="sticky-footer" class="footer mb-1">
       <div class="container">
-        <p class="text-center" style="font-family: 'Open Sans', sans-serif; font-size: small; color: #c6bcb6">
+        <p class="text-center">
           ©Copyright 2020, Michał Sokół
-        </p>
+        </p>  
       </div>
     </footer>
       

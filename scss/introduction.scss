@@ -1,0 +1,94 @@
+@import "../bootstrap-4.0.0/scss/_functions.scss";
+@import "../bootstrap-4.0.0/scss/_variables.scss";
+@import "../bootstrap-4.0.0/scss/mixins/_breakpoints.scss";
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient(-210deg, #484f4f, #563f46);
+}
+
+button:hover {
+    color: #3b3a30;
+}
+
+nav {
+    background-color: #3c4444;
+}
+
+nav li a {
+    color: #c6bcb6;
+}
+
+nav li a:hover {
+    color: #868170;
+}
+
+#quote-text {
+    line-height: 1;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: #c6bcb6;
+}
+
+#introduction-button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sticky-footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    color: #c6bcb6;
+}
+
+@media (max-width: 320px) {
+    #quote-text {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 320px) {
+    #quote-text {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 576px) {
+    #quote-text {
+        font-size: 30px;
+    }
+}
+
+@include media-breakpoint-up(xs) {
+    #avatar {
+        max-width: 50%;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    #quote-text {
+        font-size: 30px;
+    }
+
+    #avatar {
+        max-width: 110%;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    #quote-text {
+        font-size: 35px;
+    }
+
+    #avatar {
+        max-width: 95%;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    #avatar {
+        max-width: 80%;
+    }
+}
