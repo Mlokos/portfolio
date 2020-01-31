@@ -4,3 +4,4 @@ art yellow-gold
 - photography
 - drawings
 blog grey-darkgrey
+add names to icons
