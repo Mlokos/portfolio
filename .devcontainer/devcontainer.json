@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:26",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "stylelint.vscode-stylelint",
+        "pranaygp.vscode-css-peek",
+        "EditorConfig.EditorConfig"
+      ]
+    }
+  },
+  "forwardPorts": [3000, 5500],
+  "remoteUser": "vscode",
+  "postCreateCommand": "echo 'Devcontainer ready'"
+}
